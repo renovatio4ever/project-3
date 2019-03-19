@@ -2,7 +2,7 @@
 
 A React based authentication and (Utility base) dashboard solution built upon the MERN stack
 
-# Description: What is this Nano-IO Conversion Project anyway?
+# What is this Nano-IO Conversion Project anyway?
 
 The purpose of this project is to demonstrate the ability convert a classic .NET utility dashboard to a full stack MERN (or MEAN) product. The candidate dashboard (which will remain nameless..) was developed in .NET over 7 years leveraging and MVC approach. The framework is static, and applications (or "cards") were added over time to extend the portals capabilities and scope of data presented. Each application took 3 to 6 month to develop as there were major challenges connecting and presenting multiple disperate sources at the same time. Moreover multiple versions of the portal was created to support PC, mobile, and smart devices.
 
