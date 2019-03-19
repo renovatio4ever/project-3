@@ -12,7 +12,7 @@ To put things in perspective the creation of this demo portal took approximately
 
 # Dashboard Visual User Guide 101
 
-![Registration and Authentication Page](https://imagizer.imageshack.com/img921/5091/Tttfqq.gif)
+![Registration and Authentication Page](https://imagizer.imageshack.com/img923/6410/i9KQm0.gif)
 
 - Browse to https://nano-dashboard.heroku.com/
 - Select Register
