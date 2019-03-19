@@ -8,7 +8,7 @@ module.exports = merge(common, {
         new webpack.DefinePlugin({
             'process.env': {
                 'NODE_ENV': JSON.stringify('production'),
-                'API_URI': JSON.stringify('https://dashboard.heroku.com/apps/nano-dashboard')
+                'API_URI': JSON.stringify('https://dashboard.heroku.com/apps/nano-dashboard/')
             },
         }),
     ]
