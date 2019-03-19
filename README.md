@@ -42,15 +42,29 @@ This is an advanced react based authentication module that incorporates hash key
 
 ![Login Page](https://imagizer.imageshack.com/img924/1414/a2rsVs.jpg)
 
+- Users are greeted with "corporate" welcome page. 
+- Typically contains welcome and usage legal stuff
+- User can either login or create a new account
+- Validations are in place to prevent typos and other fat finger traps
+
 ### Authentication
 
 ![Authentication](https://imagizer.imageshack.com/img921/1005/XQQmNJ.jpg)
+
+- Users need only provide user and passwords
+- Passwords are hash and "salted" for added security
+- Sorry, no password recovery presently
 
 ### Landing Page to Authorized Pages. 
 
 Note: Static Dashboard pages are kept in docs folder which is inaccessible unless user is authenticated.
 
 ![Auth Pages](https://imagizer.imageshack.com/img924/6140/phkftj.jpg)
+
+- Successful logins are greeted with server and API status!
+- Users at this point can either update their personal information or proceed to dashboards
+- Selecting "Access Dashboard" option will redirect to dash board.
+- Note: dashboard static content is located in the /doc route and can only be accessed via a successful login token. Just like an authentic web server 
 
 ### Persisted user data in MongoDB
 
@@ -65,6 +79,9 @@ The following artifacts are persisted in MongoDB
 
 ![Main Dashboard](https://imagizer.imageshack.com/img922/7120/GDi3lc.jpg)
 
+- Users can choose from a selection of data templates
+- note: data templates are very easy to create requiring either a manual or automated copy and paste with rename, selection of web parts, and API redirects/configuration.
+- Persisting modular deploy was key for the success of this project. 
 - Scalable landing page displaying available dashboards
 - Future: Users will be able to define custom dashboards with available cards (or applications).
 
@@ -73,6 +90,7 @@ The following artifacts are persisted in MongoDB
 ![Sample Dashboard](https://imagizer.imageshack.com/img921/2808/8KhKX4.jpg)
 
 - Custom Dashboard powered by a number of API's from Google. Sample data is masked for this particular demo. Any API can be leveraged to populate the web-part (i.e. line, bar, pie chart) with meaningfull data.
+- Dashboards may contain interactive maps (with pins!) selecting range around pin will add or substract data. Very useful for crowd or rollup calculations!
 
 ## Downloading the Project
 ``` 
@@ -94,10 +112,16 @@ $ cd server
 $ npm run dev
 server side will run on port 8000
 
-Seperate Terminal
+Launch (Unique) Terminal
 $ cd client
 $ npm run dev
 client side will run on port 3000
+
+Optional (Local Dev Only)
+Launch (Unique) Terminal
+$ cd client
+$ npm start
+contents in /doc will be executed in a local servlette running on port 5000
 
 ```
 
