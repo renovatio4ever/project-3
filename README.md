@@ -6,9 +6,13 @@ A React based authentication and (Utility base) dashboard solution built upon th
 
 The purpose of this project is to demonstrate the ability convert a classic .NET utility dashboard to a full stack MERN (or MEAN) product. The candidate dashboard (which will remain nameless..) was developed in .NET over 7 years leveraging and MVC approach. The framework is static, and applications (or "cards") were added over time to extend the portals capabilities and scope of data presented. Each application took 3 to 6 month to develop as there were major challenges connecting and presenting multiple disperate sources at the same time. Moreover multiple versions of the portal was created to support PC, mobile, and smart devices.
 
+![Before MERN](https://imagizer.imageshack.com/img924/8485/JQTENe.jpg)
+
 One of the major advantages of developing in MERN is the ability to incorporate out of the box webparts (i.e. JQuery, D3, Keen..etc) to display data and provide user interaction almost out of the box. In this project, a number of applications found in the candidate portal were emulated. The result was the creation an extremely light weight WIP, and self contained version of the candidate portal that not only works natively in the browser but also across all smart and mobile devices.
 
 To put things in perspective the creation of this demo portal took approximately <b><u>1 week</u></b> vs. the 8+ months it would have taken in the candidates portal development environment.
+
+![Post Mern](https://imagizer.imageshack.com/img921/2897/Advtjt.jpg)
 
 # Dashboard Visual User Guide 101
 
@@ -36,21 +40,21 @@ After signing up the user can access the mapped and routed page. Authentication 
 
 This is an advanced react based authentication module that incorporates hash key generation to authenticate users to the site or API end points. 
 
-![Registration and Authentication Page](https://imagizer.imageshack.com/img924/1414/a2rsVs.jpg)
+![Login Page](https://imagizer.imageshack.com/img924/1414/a2rsVs.jpg)
 
 ### Authentication
 
-![Registration and Authentication Page](https://imagizer.imageshack.com/img921/1005/XQQmNJ.jpg)
+![Authentication](https://imagizer.imageshack.com/img921/1005/XQQmNJ.jpg)
 
 ### Landing Page to Authorized Pages. 
 
 Note: Static Dashboard pages are kept in docs folder which is inaccessible unless user is authenticated.
 
-![Registration and Authentication Page](https://imagizer.imageshack.com/img924/6140/phkftj.jpg)
+![Auth Pages](https://imagizer.imageshack.com/img924/6140/phkftj.jpg)
 
 ### Persisted user data in MongoDB
 
-![Registration and Authentication Page](https://imagizer.imageshack.com/img924/4860/IlUW1o.jpg)
+![Persisted Data](https://imagizer.imageshack.com/img924/4860/IlUW1o.jpg)
 
 The following artifacts are persisted in MongoDB
 
@@ -59,14 +63,14 @@ The following artifacts are persisted in MongoDB
 
 ### Nano-IO Dashboard
 
-![Registration and Authentication Page](https://imagizer.imageshack.com/img922/7120/GDi3lc.jpg)
+![Main Dashboard](https://imagizer.imageshack.com/img922/7120/GDi3lc.jpg)
 
 - Scalable landing page displaying available dashboards
 - Future: Users will be able to define custom dashboards with available cards (or applications).
 
 ### Sample Dashboard
 
-![Registration and Authentication Page](https://imagizer.imageshack.com/img921/2808/8KhKX4.jpg)
+![Sample Dashboard](https://imagizer.imageshack.com/img921/2808/8KhKX4.jpg)
 
 - Custom Dashboard powered by a number of API's from Google. Sample data is masked for this particular demo. Any API can be leveraged to populate the web-part (i.e. line, bar, pie chart) with meaningfull data.
 
