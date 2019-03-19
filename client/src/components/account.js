@@ -59,7 +59,7 @@ class Account extends Component {
     }else{
       return (<div className="form-group">
       <button className="btn btn-light btn-lg btn-block" onClick={this.switchEditting.bind(this)}>Update Account Information</button>
-      <a href="http://localhost:5000" className="btn btn-light btn-lg btn-block" role="button">Access Dashboards</a>
+      <a href="" className="btn btn-light btn-lg btn-block" role="button">Access Dashboards</a>
       
       </div>)
       // return (<a href="http://www.google.com" className="btn btn-light btn-lg btn-block" role="button">Access Dashboards</a>)
