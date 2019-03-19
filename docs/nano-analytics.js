@@ -1,3 +1,10 @@
+// Application: Project-3: MERN Authentication with API Web Part Driven Dashboard
+// Author: Peter Santiago
+// Last Updated: 03-19-2019
+// Sources
+//-- Keen: https://keen.github.io/dashboards/ (Create Dashboard with extended API)
+//-- Auth: https://github.com/amazingandyyy/mern-stack (Easy to use portable Authentication Package)
+
 !function(name,path,ctx){
   var latest,prev=name!=='Keen'&&window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName('head')[0],s=document.createElement('script'),w=window,loaded;s.onload=s.onerror=s.onreadystatechange=function(){if((s.readyState&&!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.parentNode.insertBefore(s,h)}}
 }('KeenTracking','https://d26b395fwzu5fz.cloudfront.net/keen-tracking-1.1.4.min.js',this);

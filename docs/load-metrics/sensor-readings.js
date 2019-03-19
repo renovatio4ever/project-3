@@ -1,3 +1,10 @@
+// Application: Project-3: MERN Authentication with API Web Part Driven Dashboard
+// Author: Peter Santiago
+// Last Updated: 03-19-2019
+// Sources
+//-- Keen: https://keen.github.io/dashboards/ (Create Dashboard with extended API)
+//-- Auth: https://github.com/amazingandyyy/mern-stack (Easy to use portable Authentication Package)
+
 var client = new ARMSio({
     projectId: '5337e28273f4bb4499000000',
     readKey: '8827959317a6a01257bbadf16c12eff4bc61a170863ca1dadf9b3718f56bece1ced94552c6f6fcda073de70bf860c622ed5937fcca82d57cff93b432803faed4108d2bca310ca9922d5ef6ea9381267a5bd6fd35895caec69a7e414349257ef43a29ebb764677040d4a80853e11b8a3f'
