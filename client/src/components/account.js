@@ -1,3 +1,10 @@
+// Application: Project-3: MERN Authentication with API Web Part Driven Dashboard
+// Author: Peter Santiago
+// Last Updated: 03-19-2019
+// Sources
+// -- Keen: https://keen.github.io/dashboards/ (Create Dashboard with extended API)
+//-- Auth: https://github.com/amazingandyyy/mern-stack (Easy to use portable Authentication Package)
+
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {reduxForm, Field} from 'redux-form';
@@ -52,7 +59,8 @@ class Account extends Component {
     }else{
       return (<div className="form-group">
       <button className="btn btn-light btn-lg btn-block" onClick={this.switchEditting.bind(this)}>Update Account Information</button>
-      <a href="http://127.0.0.1:5500/ARMS-IO/dashboards/" className="btn btn-light btn-lg btn-block" role="button">Access Dashboards</a>
+      <a href="http://localhost:5000" className="btn btn-light btn-lg btn-block" role="button">Access Dashboards</a>
+      
       </div>)
       // return (<a href="http://www.google.com" className="btn btn-light btn-lg btn-block" role="button">Access Dashboards</a>)
     }

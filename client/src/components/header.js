@@ -1,3 +1,10 @@
+// Application: Project-3: MERN Authentication with API Web Part Driven Dashboard
+// Author: Peter Santiago
+// Last Updated: 03-19-2019
+// Sources
+// -- Keen: https://keen.github.io/dashboards/ (Create Dashboard with extended API)
+//-- Auth: https://github.com/amazingandyyy/mern-stack (Easy to use portable Authentication Package)
+
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
@@ -27,7 +34,7 @@ class Header extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-sm navbar-light bg-light">
-                <NavLink className="navbar-brand" to="/">dobleARMS IO</NavLink>
+                <NavLink className="navbar-brand" to="/">Nano-IO Dashboards</NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
