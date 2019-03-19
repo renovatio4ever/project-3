@@ -14,7 +14,7 @@ To put things in perspective the creation of this demo portal took approximately
 
 ![Registration and Authentication Page](https://imagizer.imageshack.com/img923/6410/i9KQm0.gif)
 
-- Browse to https://nano-dashboard.heroku.com/
+- Browse to https://nano-dashboard.herokuapp.com/
 - Select Register
 - Supply user/pass, save
 - Authenticate with user/pass provided
@@ -147,7 +147,7 @@ The following web components and artifacts are needed to execute this project
 
 Note: package.json maintains additional classical dependencies for the authentication piece.
 
-## [Heroku](https://nano-dashboard.heroku.com/) Deployment Steps
+## [Heroku](https://nano-dashboard.herokuapp.com/) Deployment Steps
 
 ```
 terminal
